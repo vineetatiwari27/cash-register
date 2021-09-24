@@ -15,9 +15,8 @@ clickButton.addEventListener("click", function validation() {
             show("Read the bill right!");
         }
     }
-    else if (typeof bill.value === 'string') {
-        show("I don't know anything other than cash!");
-    }
+
+
     else {
         show("Invalid input");
     }
@@ -35,5 +34,5 @@ function hideMessage() {
 }
 function show(msg) {
     message.style.display = "block";
-
+    message.innerText = msg;
 }

@@ -38,7 +38,7 @@ button{
     background: bisque;
     border: none;
     color: seagreen;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 0.7rem;
     border-radius: 0.5rem;
     font-size: large;
     cursor: pointer;
@@ -47,10 +47,11 @@ button{
     display: block;
     margin-top: 20px;
     font-weight: bolder;
+    
                       
 }
 caption{
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: larger;
     padding-bottom: 10px;
 }
@@ -78,6 +79,16 @@ th, td {
 td {
     display: table-cell;
     vertical-align: inherit;
+}
+#error{
+    
+    margin: auto;
+    font-weight:900;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.errormsg{
+    margin-top: 30px;
 }
 
 
